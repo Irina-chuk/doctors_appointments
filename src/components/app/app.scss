@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+* {
+    font-family: 'Rubik';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app {
+    width: 1366px;
+}
+
+.header {
+    width: 1366px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    padding: 20px;
+    width: 190px;
+    height: 100%;
+    background: #003B72;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #FFFF;
+}
+.profile {
+    padding: 12px 40px;
+    width: 1176px;
+    height: 100%;
+    background: #50CAFF;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__icons {
+        width: 186px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    &__select {
+        width: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        &-icon {
+            width: 16px;
+            height: 16px;
+            background: #FFF;
+            border-radius: 5px;
+            &:before {
+                content: "";
+                position: absolute;
+                width: 7px;
+                height: 1px;
+                background-color: #50CAFF;
+                transform: rotate(-45deg);
+                top: 22px;
+                left: 60px;
+            }
+            &:after {
+                content: "";
+                position: absolute;
+                width: 7px;
+                height: 1px;
+                background-color:#50CAFF;
+                transform: rotate(45deg);
+                top: 22px;
+                left: 56px;
+            }
+        }
+    }
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 190px 1176px;
+    background: #FCFCFC;
+    
+}

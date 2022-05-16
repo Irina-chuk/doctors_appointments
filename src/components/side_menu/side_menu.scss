@@ -1,0 +1,41 @@
+.side__menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 190px;
+    height: 713px;
+    background: #003B72;
+    &-link {
+        padding: 14px 0 15px 23px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        margin-bottom: 10px;
+        a {
+            color: #FFF;
+            text-decoration: none;
+            margin-left: 14px;
+        }
+        &_active {
+            background: #FCFCFC;
+                a {
+                    color: #7761FF;
+                }
+            }
+    }
+}
+.help {
+    padding-left: 20px;
+    padding-bottom: 14px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    a {
+        color: #FFF;
+        text-decoration: none;
+    }
+    img {
+        margin-right: 14px;
+    }
+
+}

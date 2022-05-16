@@ -1,0 +1,64 @@
+.vizit__item {
+    padding: 20px;
+    background: #FFF;
+    width: 475px;
+    height: 174px;
+    border-radius: 5px;
+    border: 2px solid #EBE7FF;
+    margin-bottom: 15px;
+    &-day {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+    }
+    &-data {
+        margin-right: 5px;
+    }
+    &-time {
+        margin-left: 5px;
+    }
+    &-clinic {
+        margin-top: 5px;
+        width: 280px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    &-wrapper {
+       width: 435px; 
+       display: flex;
+       justify-content: space-between;
+       align-items:center;
+    }
+    &-doctor {
+        margin-top: 10px;
+        max-width: 265px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+    }
+    &-info {
+        height: 38px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &-name {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+    }
+    &-depart {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        color: #EBE7FF;
+    }
+
+
+}

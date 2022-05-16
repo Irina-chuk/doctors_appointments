@@ -1,0 +1,23 @@
+.vizits {
+    padding: 15px 60px 40px 20px;
+    
+    &__wrapper {
+        margin-top: 15px;
+        width: 1081px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link {
+        width: 91px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        a {
+            color: #50CAFF;
+        }
+
+    }
+}

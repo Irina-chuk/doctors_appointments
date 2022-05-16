@@ -1,0 +1,45 @@
+.managing {
+    padding: 16px 40px 0 18px;
+    display: flex;
+    justify-content: space-between;
+    &__wrapper {
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        &-link {
+            cursor: pointer;
+            width: 123px;
+            height: 19px;
+            border: none;
+            background-color: #FCFCFC;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;  
+            
+        }
+    }
+
+    &__vizits-wrapper {
+        margin-top: 13px;
+        width: 505px;
+        height: 481px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-y: scroll;
+            &::-webkit-scrollbar {
+                background-color: #EBE7FF;
+                width: 8px;
+            }
+            &::-webkit-scrollbar-thumb {
+                background-color: #003B72;
+                border-radius: 5px;
+
+            }
+    }
+
+}

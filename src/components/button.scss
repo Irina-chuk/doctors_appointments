@@ -1,0 +1,26 @@
+.button {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    background: #7761FF;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    &__item {
+        width: 98px;
+        height: 40px;
+        margin: 15px 0 0 0;
+    }
+    &__nav {
+        width: 14px;
+        height: 14px;
+    }
+    
+}
